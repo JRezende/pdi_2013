@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>805</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>805</width>
+    <height>360</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>805</width>
+    <height>360</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>UFU/FACOM - BCC/PDI - 2013/1</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Índice.jpg</normaloff>../Índice.jpg</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>2.000000000000000</double>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>841</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Neuropol</family>
+     <pointsize>18</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Choose an action by clicking one of the buttons below:</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>780</width>
+     <height>303</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="5" column="1">
+     <widget class="QCommandLinkButton" name="commandLinkButton_12">
+      <property name="font">
+       <font>
+        <family>Neuropol</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Bonus Action #2</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/Bad-Blood-Yolks-On-fire.ico</normaloff>../icons/Bad-Blood-Yolks-On-fire.ico</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QCommandLinkButton" name="btn_histogram">
+      <property name="font">
+       <font>
+        <family>Neuropol</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Show Image Histogram</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/Bad-Blood-Yolks-Slow.ico</normaloff>../icons/Bad-Blood-Yolks-Slow.ico</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QCommandLinkButton" name="btn_median_filter">
+      <property name="font">
+       <font>
+        <family>Neuropol</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Image Smoothing - Median Filter</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/Bad-Blood-Yolks-Grin.ico</normaloff>../icons/Bad-Blood-Yolks-Grin.ico</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="font">
+       <font>
+        <family>Neuropol</family>
+        <pointsize>12</pointsize>
+        <italic>true</italic>
+       </font>
+      </property>
+      <property name="text">
+       <string>About</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QCommandLinkButton" name="btn_watershed">
+      <property name="font">
+       <font>
+        <family>Neuropol</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Image Segmentation - Watershed</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/Bad-Blood-Yolks-Evilish.ico</normaloff>../icons/Bad-Blood-Yolks-Evilish.ico</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="font">
+       <font>
+        <family>Neuropol</family>
+        <pointsize>12</pointsize>
+        <italic>true</italic>
+       </font>
+      </property>
+      <property name="text">
+       <string>Exit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QCommandLinkButton" name="commandLinkButton_10">
+      <property name="font">
+       <font>
+        <family>Neuropol</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Bonus Action #1</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/Bad-Blood-Yolks-Omg.ico</normaloff>../icons/Bad-Blood-Yolks-Omg.ico</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QCommandLinkButton" name="btn_mean_filter">
+      <property name="font">
+       <font>
+        <family>Neuropol</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Image Smoothing - Mean Filter</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/Bad-Blood-Yolks-Hope-my-fake-smile-works-again.ico</normaloff>../icons/Bad-Blood-Yolks-Hope-my-fake-smile-works-again.ico</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QCommandLinkButton" name="btn_threshold">
+      <property name="font">
+       <font>
+        <family>Neuropol</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Image Tresholding</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/Bad-Blood-Yolks-Angry.ico</normaloff>../icons/Bad-Blood-Yolks-Angry.ico</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QCommandLinkButton" name="bnt_laplacian">
+      <property name="font">
+       <font>
+        <family>Neuropol</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Image Sharpening with Laplacian</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/Bad-Blood-Yolks-Wut.ico</normaloff>../icons/Bad-Blood-Yolks-Wut.ico</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QCommandLinkButton" name="btn_auto_threshold">
+      <property name="font">
+       <font>
+        <family>Neuropol</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Image Automatic Thresholding</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/Bad-Blood-Yolks-Yarr.ico</normaloff>../icons/Bad-Blood-Yolks-Yarr.ico</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QCommandLinkButton" name="btn_gaussian_filter">
+      <property name="font">
+       <font>
+        <family>Neuropol</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Image Smoothing - Gaussian Filter</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/Bad-Blood-Yolks-Want.ico</normaloff>../icons/Bad-Blood-Yolks-Want.ico</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QCommandLinkButton" name="btn_otsu">
+      <property name="font">
+       <font>
+        <family>Neuropol</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Image Segmentation - Otsu</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/Bad-Blood-Yolks-Yuush.ico</normaloff>../icons/Bad-Blood-Yolks-Yuush.ico</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QCommandLinkButton" name="btn_to_gray_scale">
+      <property name="font">
+       <font>
+        <family>Neuropol</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This action takes an image (preferred a color one) as input and produce a gray-scale version of it. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="text">
+       <string>Convert Image to Gray Scale</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/Bad-Blood-Yolks-Graffiti.ico</normaloff>../icons/Bad-Blood-Yolks-Graffiti.ico</iconset>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
